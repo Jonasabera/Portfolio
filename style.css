@@ -1,0 +1,20 @@
+/* Dark tech-inspired header background */
+.bg-dark-tech {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #003366);
+  border-bottom: 2px solid #00d4ff;
+}
+
+/* Sidebar hover effect */
+.hover-item:hover {
+  background-color: #00d4ff;
+  color: #111 !important;
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+/* Project cards hover effect */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
